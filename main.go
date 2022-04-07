@@ -27,7 +27,7 @@ func printDeepestNode(bst BinarySearchTree) {
 	deepestDepth = &d
 	value = &v
 	findDeepestNode(bst.Root, value, 0, deepestDepth)
-	fmt.Printf("deepest, %d; depth, %d\n", d, v)
+	fmt.Printf("deepest, %d; depth, %d\n", v, d)
 }
 
 //Walks the tree from left to right, looking for the deepest node
